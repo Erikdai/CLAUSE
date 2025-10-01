@@ -1,4 +1,4 @@
-# CLAUSE: Knowledge Graph Reasoning with Reinforcement Learning
+# CLAUSE: AGENTIC NEURO-SYMBOLIC KNOWLEDGE GRAPH REASONING VIA DYNAMIC LEARNABLE CONTEXT ENGINEERING
 
 A reinforcement learning framework for multi-hop question answering over knowledge graphs, featuring multi-agent coordination and advanced graph traversal strategies.
 

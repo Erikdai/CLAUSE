@@ -1,0 +1,78 @@
+# Core Python packages
+numpy>=1.21.0
+torch>=1.11.0
+pandas>=1.3.0
+
+# Deep Learning and ML frameworks
+transformers>=4.20.0
+sentence-transformers>=2.2.0
+
+# Vector databases and search
+faiss-cpu>=1.7.0  # Use faiss-gpu if you have CUDA support
+
+# NLP processing
+spacy>=3.4.0
+# Optional: Download spaCy language model
+# python -m spacy download en_core_web_sm
+
+# Cross-encoder for reranking (optional)
+# sentence-transformers already includes cross-encoder functionality
+
+# HTTP requests and APIs
+requests>=2.25.0
+
+# JSON processing (faster JSON)
+ujson>=5.0.0
+
+# Progress bars
+tqdm>=4.60.0
+
+# Data processing and utilities
+unicodedata2>=14.0.0  # For better Unicode normalization
+
+# Logging and configuration
+logging
+
+# Development and testing (optional)
+pytest>=6.0.0
+black>=22.0.0
+flake8>=4.0.0
+
+# System and path utilities (usually built-in, listed for completeness)
+pathlib
+os
+sys
+re
+json
+time
+random
+math
+hashlib
+argparse
+csv
+dataclasses
+enum
+types
+collections
+typing
+
+# Optional: Distributed training (if needed)
+# accelerate>=0.20.0
+# datasets>=2.0.0
+
+# Optional: Experiment tracking (if needed)
+# wandb>=0.13.0
+# tensorboard>=2.9.0
+
+# Optional: Model optimization (if needed)
+# peft>=0.4.0
+# bitsandbytes>=0.39.0
+
+# Optional: Scientific computing (if using advanced metrics)
+# scipy>=1.8.0
+# scikit-learn>=1.1.0
+# matplotlib>=3.5.0
+# seaborn>=0.11.0
+
+# Environment variables support (built-in)
+# os.getenv is used for API key management
